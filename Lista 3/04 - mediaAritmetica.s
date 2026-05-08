@@ -1,3 +1,4 @@
+#LISTA 3 - ATIVIDADE 4
 .data
 	msg1:.asciiz"\nDigite a primeira nota: \n"
 	msg2:.asciiz"\nDigite a segunda nota: \n"
@@ -57,6 +58,8 @@ senaoSeNotaMenor3:
 senao:
 	j exame
 	
+	
+
 aprovado:
 	li $v0, 4
 	la $a0, msgAprovado
